@@ -1,0 +1,82 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "50e7c842-84a8-48b2-9294-fe852ddaef87",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "50e7c842-84a8-48b2-9294-fe852ddaef87@6c48a",
+      "displayName": "car101",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "50e7c842-84a8-48b2-9294-fe852ddaef87"
+      }
+    },
+    "f9941": {
+      "ver": "1.0.9",
+      "importer": "sprite-frame",
+      "uuid": "50e7c842-84a8-48b2-9294-fe852ddaef87@f9941",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -0.5,
+        "offsetY": 0.5,
+        "trimX": 7,
+        "trimY": 32,
+        "width": 145,
+        "height": 95,
+        "rawWidth": 160,
+        "rawHeight": 160,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "50e7c842-84a8-48b2-9294-fe852ddaef87@6c48a",
+        "atlasUuid": "",
+        "packable": true
+      },
+      "displayName": "car101",
+      "id": "f9941",
+      "name": "spriteFrame"
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "50e7c842-84a8-48b2-9294-fe852ddaef87@f9941",
+    "hasAlpha": true
+  }
+}

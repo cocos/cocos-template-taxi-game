@@ -1,0 +1,82 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "38473208-517c-419b-8b96-662dae60607e",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "38473208-517c-419b-8b96-662dae60607e@6c48a",
+      "displayName": "car102",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "38473208-517c-419b-8b96-662dae60607e"
+      }
+    },
+    "f9941": {
+      "ver": "1.0.9",
+      "importer": "sprite-frame",
+      "uuid": "38473208-517c-419b-8b96-662dae60607e@f9941",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -1.5,
+        "offsetY": -3,
+        "trimX": 6,
+        "trimY": 27,
+        "width": 145,
+        "height": 112,
+        "rawWidth": 160,
+        "rawHeight": 160,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "38473208-517c-419b-8b96-662dae60607e@6c48a",
+        "atlasUuid": "",
+        "packable": true
+      },
+      "displayName": "car102",
+      "id": "f9941",
+      "name": "spriteFrame"
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "38473208-517c-419b-8b96-662dae60607e@f9941",
+    "hasAlpha": true
+  }
+}

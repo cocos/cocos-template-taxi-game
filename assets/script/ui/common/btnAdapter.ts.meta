@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "f130bafd-1b06-4690-9124-446a27857c51",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/script/ui/common/btnAdapter.js",
+    "importerSettings": 7
+  }
+}

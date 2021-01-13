@@ -1,0 +1,109 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "light",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 5,
+    "speed": 1,
+    "wrapMode": 2,
+    "events": [],
+    "_duration": 2,
+    "_keys": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "rotation"
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            {
+              "__type__": "cc.Quat",
+              "x": 1.2246467991473532e-16,
+              "y": 1.2246467991473532e-16,
+              "z": -1.4997597826618576e-32,
+              "w": 1
+            },
+            {
+              "__type__": "cc.Quat",
+              "x": 6.123233995736766e-17,
+              "y": 6.123233995736766e-17,
+              "z": -1,
+              "w": 3.749399456654644e-33
+            },
+            {
+              "__type__": "cc.Quat",
+              "x": -1.2246467991473532e-16,
+              "y": 1.2246467991473532e-16,
+              "z": -1.4997597826618576e-32,
+              "w": -1
+            }
+          ],
+          "easingMethods": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 1,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1.5,
+              "y": 1.5,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          ],
+          "easingMethods": [
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    ],
+    "_commonTargets": [],
+    "_hash": 0
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "/"
+  }
+]

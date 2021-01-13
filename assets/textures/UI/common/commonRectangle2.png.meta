@@ -1,0 +1,82 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "da959189-c8de-49ba-97a7-caab04ed371e",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "da959189-c8de-49ba-97a7-caab04ed371e@6c48a",
+      "displayName": "commonRectangle2",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "da959189-c8de-49ba-97a7-caab04ed371e"
+      }
+    },
+    "f9941": {
+      "ver": "1.0.9",
+      "importer": "sprite-frame",
+      "uuid": "da959189-c8de-49ba-97a7-caab04ed371e@f9941",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 120,
+        "height": 120,
+        "rawWidth": 120,
+        "rawHeight": 120,
+        "borderTop": 32,
+        "borderBottom": 38,
+        "borderLeft": 41,
+        "borderRight": 37,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "da959189-c8de-49ba-97a7-caab04ed371e@6c48a",
+        "atlasUuid": "",
+        "packable": true
+      },
+      "displayName": "commonRectangle2",
+      "id": "f9941",
+      "name": "spriteFrame"
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "da959189-c8de-49ba-97a7-caab04ed371e@f9941",
+    "hasAlpha": true
+  }
+}

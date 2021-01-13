@@ -1,0 +1,13 @@
+{
+  "ver": "1.0.11",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "d7cefe23-d74e-4b77-8f40-969dca3d13f3",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "rewardIdle"
+  }
+}

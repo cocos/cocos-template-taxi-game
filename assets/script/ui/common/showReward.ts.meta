@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "880e1902-9487-4a3e-a757-7604c8a5dbf6",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/script/ui/common/showReward.js",
+    "importerSettings": 7
+  }
+}
