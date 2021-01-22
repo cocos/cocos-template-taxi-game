@@ -5,6 +5,23 @@
   "uuid": "d0de18df-e2e4-4b30-9e7f-2930376ee3cc",
   "files": [],
   "subMetas": {
+    "46193": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d0de18df-e2e4-4b30-9e7f-2930376ee3cc@46193",
+      "displayName": "",
+      "id": "46193",
+      "name": "coin.jpg.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "c6160": {
       "ver": "1.1.0",
       "importer": "gltf-mesh",
@@ -15,23 +32,6 @@
       "imported": true,
       "files": [
         ".bin",
-        ".json"
-      ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 0
-      }
-    },
-    "df7df": {
-      "importer": "gltf-embeded-image",
-      "uuid": "d0de18df-e2e4-4b30-9e7f-2930376ee3cc@df7df",
-      "displayName": "",
-      "id": "df7df",
-      "name": "贴图 #1.image",
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".png",
         ".json"
       ],
       "subMetas": {},
@@ -59,8 +59,8 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
-        "isUuid": false,
-        "imageUuidOrDatabaseUri": "db://assets/model/effect/coin/coin.jpg"
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d0de18df-e2e4-4b30-9e7f-2930376ee3cc@46193"
       }
     },
     "9d093": {
@@ -118,9 +118,8 @@
     },
     "imageMetas": [
       {
-        "name": "贴图 #1",
-        "remap": "db://assets/model/effect/coin/coin.jpg",
-        "uri": "d0de18df-e2e4-4b30-9e7f-2930376ee3cc@df7df"
+        "name": "coin.jpg",
+        "uri": "d0de18df-e2e4-4b30-9e7f-2930376ee3cc@46193"
       }
     ],
     "legacyFbxImporter": true

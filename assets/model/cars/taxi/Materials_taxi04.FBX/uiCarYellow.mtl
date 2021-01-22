@@ -14,19 +14,19 @@
   ],
   "_states": [
     {
+      "rasterizerState": {},
+      "depthStencilState": {},
       "blendState": {
         "targets": [
           {}
         ]
-      },
-      "depthStencilState": {},
-      "rasterizerState": {}
+      }
     }
   ],
   "_props": [
     {
       "mainTexture": {
-        "__uuid__": "27659587-6461-401d-8a86-0aa1201459e8@6c48a"
+        "__uuid__": "9009b4f8-3925-42a5-9c9d-d10c335492b8@6c48a"
       }
     }
   ]

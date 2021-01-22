@@ -148,6 +148,22 @@
         "imageUuidOrDatabaseUri": "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b@70f69"
       }
     },
+    "e8544": {
+      "importer": "gltf-material",
+      "uuid": "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b@e8544",
+      "displayName": "",
+      "id": "e8544",
+      "name": "Material #12.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "f9619": {
       "importer": "gltf-scene",
       "uuid": "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b@f9619",
@@ -168,7 +184,7 @@
   "userData": {
     "normals": 2,
     "tangents": 2,
-    "dumpMaterials": true,
+    "dumpMaterials": false,
     "redirect": "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b@f9619",
     "assetFinder": {
       "meshes": [
@@ -183,7 +199,7 @@
         "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b@5f79d"
       ],
       "materials": [
-        "e2fe4db7-e1a3-4e3f-b211-c74f6e4b5140"
+        "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b@e8544"
       ],
       "scenes": [
         "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b@f9619"

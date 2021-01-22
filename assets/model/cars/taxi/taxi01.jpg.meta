@@ -2,40 +2,39 @@
   "ver": "1.0.21",
   "importer": "image",
   "imported": true,
-  "uuid": "f472acea-dbf4-4371-8125-18e81dc9d96e",
+  "uuid": "b2087657-815f-4bb0-b45f-78a6c1188a23",
   "files": [
     ".jpg",
     ".json"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.20",
       "importer": "texture",
-      "uuid": "f472acea-dbf4-4371-8125-18e81dc9d96e@6c48a",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {},
+      "uuid": "b2087657-815f-4bb0-b45f-78a6c1188a23@6c48a",
+      "displayName": "taxi01",
+      "id": "6c48a",
+      "name": "texture",
       "userData": {
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
-        "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f472acea-dbf4-4371-8125-18e81dc9d96e"
+        "imageUuidOrDatabaseUri": "b2087657-815f-4bb0-b45f-78a6c1188a23"
       },
-      "displayName": "taxi01",
-      "id": "6c48a",
-      "name": "texture"
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
+    "hasAlpha": false,
     "type": "texture",
-    "redirect": "f472acea-dbf4-4371-8125-18e81dc9d96e@6c48a",
-    "hasAlpha": false
+    "redirect": "b2087657-815f-4bb0-b45f-78a6c1188a23@6c48a"
   }
 }

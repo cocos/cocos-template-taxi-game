@@ -9,47 +9,40 @@
   "_techIdx": 0,
   "_defines": [
     {
-      "USE_ALBEDO_MAP": true,
-      "ROUGHNESS_CHANNEL": "g",
-      "METALLIC_CHANNEL": "b",
-      "OCCLUSION_CHANNEL": "r"
-    }
+      "USE_ALBEDO_MAP": true
+    },
+    {},
+    {}
   ],
   "_states": [
     {
+      "rasterizerState": {},
+      "depthStencilState": {},
       "blendState": {
         "targets": [
           {}
         ]
-      },
-      "depthStencilState": {},
-      "rasterizerState": {}
-    }
+      }
+    },
+    {},
+    {}
   ],
   "_props": [
     {
       "albedoScale": {
-        "__type__": "cc.Vec4",
+        "__type__": "cc.Vec3",
         "x": 1,
         "y": 1,
-        "z": 1,
-        "w": 1
+        "z": 1
       },
-      "pbrScale": {
-        "__type__": "cc.Vec4",
-        "x": 1,
-        "y": 0.70710676908493,
-        "z": 0.400000005960464,
-        "w": 1
-      },
-      "occlusion": 1,
+      "alphaThreshold": 1,
       "roughness": 0.70710676908493,
       "metallic": 0.400000005960464,
-      "alphaThreshold": 1,
-      "normalStrenth": 1,
       "mainTexture": {
-        "__uuid__": "27659587-6461-401d-8a86-0aa1201459e8@6c48a"
+        "__uuid__": "9009b4f8-3925-42a5-9c9d-d10c335492b8@6c48a"
       }
-    }
+    },
+    {},
+    {}
   ]
 }

@@ -5,6 +5,23 @@
   "uuid": "6639ad1c-c6d6-4640-8c05-096030c374da",
   "files": [],
   "subMetas": {
+    "93503": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6639ad1c-c6d6-4640-8c05-096030c374da@93503",
+      "displayName": "",
+      "id": "93503",
+      "name": "taxi04Light.png.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "8cc00": {
       "ver": "1.1.0",
       "importer": "gltf-mesh",
@@ -107,39 +124,22 @@
         "gltfIndex": 5
       }
     },
-    "591ca": {
+    "07403": {
       "importer": "gltf-embeded-image",
-      "uuid": "6639ad1c-c6d6-4640-8c05-096030c374da@591ca",
+      "uuid": "6639ad1c-c6d6-4640-8c05-096030c374da@07403",
       "displayName": "",
-      "id": "591ca",
-      "name": "贴图 #14.image",
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".png",
-        ".json"
-      ],
-      "subMetas": {},
+      "id": "07403",
+      "name": "taxi04Red.jpg.image",
       "userData": {
         "gltfIndex": 0
-      }
-    },
-    "0e6cb": {
-      "importer": "gltf-embeded-image",
-      "uuid": "6639ad1c-c6d6-4640-8c05-096030c374da@0e6cb",
-      "displayName": "",
-      "id": "0e6cb",
-      "name": "贴图 #17.image",
+      },
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
+        ".jpg",
         ".json"
       ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 1
-      }
+      "subMetas": {}
     },
     "36f89": {
       "ver": "1.0.20",
@@ -162,7 +162,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "6639ad1c-c6d6-4640-8c05-096030c374da@591ca"
+        "imageUuidOrDatabaseUri": "6639ad1c-c6d6-4640-8c05-096030c374da@07403"
       }
     },
     "5b61b": {
@@ -186,7 +186,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "6639ad1c-c6d6-4640-8c05-096030c374da@0e6cb"
+        "imageUuidOrDatabaseUri": "6639ad1c-c6d6-4640-8c05-096030c374da@93503"
       }
     },
     "5227b": {
@@ -267,12 +267,12 @@
     },
     "imageMetas": [
       {
-        "name": "贴图 #14",
-        "uri": "6639ad1c-c6d6-4640-8c05-096030c374da@591ca"
+        "name": "taxi04Red.jpg",
+        "uri": "6639ad1c-c6d6-4640-8c05-096030c374da@07403"
       },
       {
-        "name": "贴图 #17",
-        "uri": "6639ad1c-c6d6-4640-8c05-096030c374da@0e6cb"
+        "name": "taxi04Light.png",
+        "uri": "6639ad1c-c6d6-4640-8c05-096030c374da@93503"
       }
     ],
     "legacyFbxImporter": true

@@ -122,6 +122,7 @@
         "uri": "16c4db36-3cef-4fa2-ba47-13853124e393@2912a"
       }
     ],
-    "legacyFbxImporter": true
+    "legacyFbxImporter": true,
+    "materialDumpDir": "db://assets/model/cars/truck/Materials_truck01"
   }
 }

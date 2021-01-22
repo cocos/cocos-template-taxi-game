@@ -38,62 +38,77 @@
         "gltfIndex": 0
       }
     },
-    "181cb": {
+    "203a2": {
       "importer": "gltf-embeded-image",
-      "uuid": "933a6531-2595-4085-91a3-307eba7061ec@181cb",
+      "uuid": "933a6531-2595-4085-91a3-307eba7061ec@203a2",
       "displayName": "",
-      "id": "181cb",
-      "name": "贴图 #4.image",
+      "id": "203a2",
+      "name": "truck02Blue.jpg.image",
+      "userData": {
+        "gltfIndex": 0
+      },
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
+        ".jpg",
         ".json"
       ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 0
-      }
+      "subMetas": {}
     },
-    "442db": {
-      "ver": "1.0.20",
+    "3a1cd": {
       "importer": "texture",
-      "name": "贴图 #4.texture",
-      "id": "442db",
+      "uuid": "933a6531-2595-4085-91a3-307eba7061ec@3a1cd",
       "displayName": "",
-      "uuid": "933a6531-2595-4085-91a3-307eba7061ec@442db",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {},
+      "id": "3a1cd",
+      "name": "truck02Blue.texture",
       "userData": {
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
-        "premultiplyAlpha": false,
         "anisotropy": 1,
-        "isUuid": false,
-        "imageUuidOrDatabaseUri": "db://assets/model/cars/truck/truck02Blue.jpg"
-      }
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "933a6531-2595-4085-91a3-307eba7061ec@203a2"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f218": {
+      "importer": "gltf-material",
+      "uuid": "933a6531-2595-4085-91a3-307eba7061ec@5f218",
+      "displayName": "",
+      "id": "5f218",
+      "name": "truck02Blue.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "normals": 0,
     "tangents": 1,
-    "dumpMaterials": true,
+    "dumpMaterials": false,
     "redirect": "933a6531-2595-4085-91a3-307eba7061ec@76763",
     "assetFinder": {
       "meshes": [
         "933a6531-2595-4085-91a3-307eba7061ec@5d0b5"
       ],
       "textures": [
-        "933a6531-2595-4085-91a3-307eba7061ec@442db"
+        "933a6531-2595-4085-91a3-307eba7061ec@3a1cd"
       ],
       "materials": [
-        "35ebd716-42b7-4d3c-8b91-c55fd5165086"
+        "933a6531-2595-4085-91a3-307eba7061ec@5f218"
       ],
       "scenes": [
         "933a6531-2595-4085-91a3-307eba7061ec@76763"
@@ -102,9 +117,8 @@
     },
     "imageMetas": [
       {
-        "name": "贴图 #4",
-        "remap": "db://assets/model/cars/truck/truck02Blue.jpg",
-        "uri": "933a6531-2595-4085-91a3-307eba7061ec@181cb"
+        "name": "truck02Blue.jpg",
+        "uri": "933a6531-2595-4085-91a3-307eba7061ec@203a2"
       }
     ],
     "legacyFbxImporter": true,
