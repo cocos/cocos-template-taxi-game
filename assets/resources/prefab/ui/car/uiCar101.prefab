@@ -185,7 +185,7 @@
       "__id__": 6
     },
     "_mesh": {
-      "__uuid__": "9cca8e82-422d-4c97-914c-e34c39438c6d@050ef"
+      "__uuid__": "51a69fe1-0221-40eb-aff6-9c6efb76136c@050ef"
     },
     "_shadowCastingMode": 0,
     "_shadowReceivingMode": 1,
@@ -257,7 +257,7 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ee2d04d2-fcc8-482a-92a6-9150bd7172b0"
+      "__id__": 0
     },
     "fileId": "Node.594"
   },
@@ -333,7 +333,7 @@
       "__id__": 14
     },
     "_mesh": {
-      "__uuid__": "9cca8e82-422d-4c97-914c-e34c39438c6d@801a3"
+      "__uuid__": "51a69fe1-0221-40eb-aff6-9c6efb76136c@801a3"
     },
     "_shadowCastingMode": 0,
     "_shadowReceivingMode": 1,
@@ -405,7 +405,7 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ee2d04d2-fcc8-482a-92a6-9150bd7172b0"
+      "__id__": 0
     },
     "fileId": "Node.595"
   },
@@ -481,7 +481,7 @@
       "__id__": 22
     },
     "_mesh": {
-      "__uuid__": "9cca8e82-422d-4c97-914c-e34c39438c6d@8c383"
+      "__uuid__": "51a69fe1-0221-40eb-aff6-9c6efb76136c@8c383"
     },
     "_shadowCastingMode": 0,
     "_shadowReceivingMode": 1,
@@ -553,7 +553,7 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ee2d04d2-fcc8-482a-92a6-9150bd7172b0"
+      "__id__": 0
     },
     "fileId": "Node.596"
   },
@@ -629,7 +629,7 @@
       "__id__": 30
     },
     "_mesh": {
-      "__uuid__": "9cca8e82-422d-4c97-914c-e34c39438c6d@4166c"
+      "__uuid__": "51a69fe1-0221-40eb-aff6-9c6efb76136c@4166c"
     },
     "_shadowCastingMode": 0,
     "_shadowReceivingMode": 1,
@@ -701,7 +701,7 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ee2d04d2-fcc8-482a-92a6-9150bd7172b0"
+      "__id__": 0
     },
     "fileId": "Node.597"
   },
@@ -777,7 +777,7 @@
       "__id__": 38
     },
     "_mesh": {
-      "__uuid__": "9cca8e82-422d-4c97-914c-e34c39438c6d@6726b"
+      "__uuid__": "51a69fe1-0221-40eb-aff6-9c6efb76136c@6726b"
     },
     "_shadowCastingMode": 0,
     "_shadowReceivingMode": 1,
@@ -849,7 +849,7 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ee2d04d2-fcc8-482a-92a6-9150bd7172b0"
+      "__id__": 0
     },
     "fileId": "Node.598"
   },
@@ -918,9 +918,7 @@
     "lightmapSettings": {
       "__id__": 46
     },
-    "_mesh": {
-      "__uuid__": "9cca8e82-422d-4c97-914c-e34c39438c6d@14b6a"
-    },
+    "_mesh": null,
     "_shadowCastingMode": 0,
     "_shadowReceivingMode": 1,
     "_enableMorph": true,
@@ -952,7 +950,7 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ee2d04d2-fcc8-482a-92a6-9150bd7172b0"
+      "__id__": 0
     },
     "fileId": "Node.599"
   },
@@ -962,7 +960,7 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ee2d04d2-fcc8-482a-92a6-9150bd7172b0"
+      "__id__": 0
     },
     "fileId": "Node.593"
   },
@@ -972,7 +970,7 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "ee2d04d2-fcc8-482a-92a6-9150bd7172b0"
+      "__id__": 0
     },
     "fileId": "33Uhs1dolM3a6GcJG6G6wf"
   }

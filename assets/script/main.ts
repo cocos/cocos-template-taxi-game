@@ -46,7 +46,7 @@ export class main extends Component {
     isConfigLoaded: boolean = false;
 
     start () {
-        profiler.hideStats();
+        // profiler.hideStats();
 
         this.loadingUI.show();
 

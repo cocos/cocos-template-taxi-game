@@ -31,7 +31,7 @@ export class poolManager {
      * 根据预设从对象池中获取对应节点
      */
     getNode (prefab: Prefab, parent: Node) {
-        let name = prefab.name;
+        let name = prefab.data.name;
         this.dictPrefab[name] = prefab;
         let node: Node;
         if (this.dictPool.hasOwnProperty(name)) {

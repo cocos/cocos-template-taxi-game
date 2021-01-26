@@ -6,7 +6,7 @@
   "_effectAsset": {
     "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
   },
-  "_techIdx": "1",
+  "_techIdx": 0,
   "_defines": [
     {
       "USE_ALBEDO_MAP": true
@@ -29,12 +29,6 @@
   ],
   "_props": [
     {
-      "albedoScale": {
-        "__type__": "cc.Vec3",
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
       "alphaThreshold": 1,
       "roughness": 0.70710676908493,
       "metallic": 0.400000005960464,

@@ -187,6 +187,38 @@
       ],
       "subMetas": {}
     },
+    "18f02": {
+      "importer": "gltf-material",
+      "uuid": "b1194242-b40d-4597-b52e-0c1560da550e@18f02",
+      "displayName": "",
+      "id": "18f02",
+      "name": "taxi06Gray.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "10c40": {
+      "importer": "gltf-material",
+      "uuid": "b1194242-b40d-4597-b52e-0c1560da550e@10c40",
+      "displayName": "",
+      "id": "10c40",
+      "name": "light1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "965ef": {
       "importer": "gltf-scene",
       "uuid": "b1194242-b40d-4597-b52e-0c1560da550e@965ef",
@@ -207,7 +239,7 @@
   "userData": {
     "normals": 2,
     "tangents": 2,
-    "dumpMaterials": true,
+    "dumpMaterials": false,
     "redirect": "b1194242-b40d-4597-b52e-0c1560da550e@965ef",
     "assetFinder": {
       "meshes": [
@@ -223,8 +255,8 @@
         "b1194242-b40d-4597-b52e-0c1560da550e@a96a6"
       ],
       "materials": [
-        "17a9730e-2fba-4bd6-a740-b1c822794c50",
-        "11331fe2-957b-4a1a-bb60-09512027743f"
+        "b1194242-b40d-4597-b52e-0c1560da550e@18f02",
+        "b1194242-b40d-4597-b52e-0c1560da550e@10c40"
       ],
       "scenes": [
         "b1194242-b40d-4597-b52e-0c1560da550e@965ef"

@@ -361,7 +361,7 @@ export class car extends Component {
 
         this.tootingCoolTime = 0;
         this.curRoadPoint = this.entry!.getComponent('roadPoint') as roadPoint;
-        this.posSrc = this.entry!.worldPosition;
+        this.posSrc.set(this.entry!.worldPosition);
         this.posTarget.set(this.curRoadPoint.next!.worldPosition);
 
         //初始化位置
