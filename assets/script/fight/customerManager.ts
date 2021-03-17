@@ -79,6 +79,7 @@ export class customerManager extends Component {
 
 
             this.nodeCustomer = poolManager.instance.getNode(prefab, this.node);
+            this.nodeCustomer.active = true;
 
             // direction = new Vec3(direction.x, direction.y, direction.z);
 
