@@ -38,7 +38,7 @@ export class effectManager extends Component {
         this.currentNode.setWorldPosition(this.carManager.mainCar.node.worldPosition);
         this.currentNode.eulerAngles = this.carManager.mainCar.node.eulerAngles;
 
-        audioManager.instance.playSound(constant.AUDIO_SOUND.STOP, false);
+        audioManager.instance.playSound(constant.AUDIO_SOUND.STOP);
     }
 
     onBrakingEnd () {
