@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "2683925c-556a-4669-b13d-c40effb96270",
@@ -8,6 +8,7 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/script/i18nMaster/runtime-scripts/polyglot.min.js",
-    "importerSettings": 7
+    "importerSettings": 7,
+    "simulateGlobals": []
   }
 }

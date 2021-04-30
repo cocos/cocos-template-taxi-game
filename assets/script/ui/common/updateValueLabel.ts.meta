@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "4b7cf452-e5b7-4ff2-aa3c-ae8acd8259f9",
@@ -8,6 +8,7 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/script/ui/common/updateValueLabel.js",
-    "importerSettings": 7
+    "importerSettings": 7,
+    "simulateGlobals": []
   }
 }

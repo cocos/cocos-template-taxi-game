@@ -14,7 +14,7 @@
       "displayName": "rankBox01",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "08c2f144-f2c9-4cc6-8cbd-77f5127c5799"
       }

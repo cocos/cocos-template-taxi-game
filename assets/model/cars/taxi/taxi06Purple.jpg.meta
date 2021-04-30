@@ -20,11 +20,11 @@
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "c21f9cc7-6e66-468e-b080-844d0634d3aa"
       },
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"

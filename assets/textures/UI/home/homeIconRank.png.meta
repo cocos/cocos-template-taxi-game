@@ -14,7 +14,7 @@
       "displayName": "homeIconRank",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "cfadd602-4da3-4fa8-a3a5-2b74784b5085"
       }

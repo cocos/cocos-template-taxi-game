@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "ec04ba20-7a6a-4e1e-b421-5551d5a92655",
@@ -8,6 +8,7 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/script/ui/main/invincible.js",
-    "importerSettings": 7
+    "importerSettings": 7,
+    "simulateGlobals": []
   }
 }

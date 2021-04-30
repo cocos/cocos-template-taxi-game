@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.10",
+  "ver": "2.0.13",
   "importer": "fbx",
   "imported": true,
   "uuid": "51a69fe1-0221-40eb-aff6-9c6efb76136c",
@@ -119,11 +119,11 @@
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model/cars/taxi/taxi01.jpg"
       },
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"

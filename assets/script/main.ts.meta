@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "c5aa722c-5abe-40e1-b94f-7853da9d733f",
@@ -8,6 +8,7 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/script/main.js",
-    "importerSettings": 7
+    "importerSettings": 7,
+    "simulateGlobals": []
   }
 }

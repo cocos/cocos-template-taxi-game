@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.10",
+  "ver": "2.0.13",
   "importer": "fbx",
   "imported": true,
   "uuid": "9fa22f3f-a37f-4e4b-9693-98864b9a26a8",
@@ -40,7 +40,7 @@
       }
     },
     "bfae8": {
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "importer": "texture",
       "name": "贴图 #3.texture",
       "id": "bfae8",
@@ -58,7 +58,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model/tree/stone01.png"
       }

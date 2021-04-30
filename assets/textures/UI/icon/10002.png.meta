@@ -14,7 +14,7 @@
       "displayName": "10002",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "028a7551-eae1-4123-99b2-a4a8b0ee0e5c"
       }

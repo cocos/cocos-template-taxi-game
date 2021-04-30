@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.10",
+  "ver": "2.0.13",
   "importer": "fbx",
   "imported": true,
   "uuid": "73c15f5f-8227-413d-a25d-c4844b6c4e87",
@@ -40,7 +40,7 @@
       }
     },
     "bc797": {
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "importer": "texture",
       "name": "贴图 #8.texture",
       "id": "bc797",
@@ -58,7 +58,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model/sign/end.jpg"
       }

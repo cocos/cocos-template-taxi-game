@@ -14,7 +14,7 @@
       "displayName": "car108Black",
       "id": "6c48a",
       "name": "texture",
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "imported": true,
       "files": [
         ".json"
@@ -27,7 +27,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "c788c3ff-53dc-4cc1-8cfa-71ac1b78ecb0"
       }

@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.10",
+  "ver": "2.0.13",
   "importer": "fbx",
   "imported": true,
   "uuid": "76563dac-7b68-4f3f-a880-d1be43e5a601",
@@ -40,7 +40,7 @@
       }
     },
     "bc797": {
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "importer": "texture",
       "name": "贴图 #8.texture",
       "id": "bc797",
@@ -58,7 +58,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model/road/road03.jpg"
       }

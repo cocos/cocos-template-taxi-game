@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.10",
+  "ver": "2.0.13",
   "importer": "fbx",
   "imported": true,
   "uuid": "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b",
@@ -125,7 +125,7 @@
       }
     },
     "5f79d": {
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "importer": "texture",
       "name": "贴图 #12.texture",
       "id": "5f79d",
@@ -143,7 +143,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b@70f69"
       }

@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.10",
+  "ver": "2.0.13",
   "importer": "fbx",
   "imported": true,
   "uuid": "8238a4e4-d7ea-4333-911f-5fddcb293f3c",
@@ -40,7 +40,7 @@
       }
     },
     "bfae8": {
-      "ver": "1.0.20",
+      "ver": "1.0.21",
       "importer": "texture",
       "name": "贴图 #3.texture",
       "id": "bfae8",
@@ -58,7 +58,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model/tree/trees01.jpg"
       }
