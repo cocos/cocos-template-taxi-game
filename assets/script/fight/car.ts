@@ -673,6 +673,6 @@ export class car extends Component {
 
         //随机个音效播放
         let audio = Math.floor(Math.random() * 2) === 1 ? constant.AUDIO_SOUND.TOOTING1:constant.AUDIO_SOUND.TOOTING2;
-        audioManager.instance.playSound(audio, false);
+        audioManager.instance.playSound(audio);
     }
 }

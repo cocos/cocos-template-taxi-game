@@ -165,9 +165,6 @@ export class main extends Component {
             return;
         }
 
-        //资源加载完后，可以播放背景音乐了
-        audioManager.instance.playMusic(constant.AUDIO_SOUND.BACKGROUND, true);
-
         director.preloadScene('main', (err) => {
             this.curProgress += 5;
             this.loadingUI.updateProgress(this.curProgress, i18n.t("main.entering"));
