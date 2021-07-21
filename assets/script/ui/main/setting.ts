@@ -42,6 +42,17 @@ export class setting extends Component {
 
     clickTimes = 0;//展示次数
 
+    static checkState(){
+        const data = audioManager.instance.getConfiguration(true);
+        if (!data) {
+            audioManager.instance.closeMusic();
+            audioManager.instance.closeSound();
+        } else {
+            audioManager.instance.openMusic();
+            audioManager.instance.openSound();
+        }
+    }
+
     start () {
         // Your initialization goes here.
     }
@@ -72,9 +83,9 @@ export class setting extends Component {
     }
 
     onBtnVibrateClick () {
-        this.isVibrateOpen = !this.isVibrateOpen;
-        configuration.instance.setGlobalData('vibrate', this.isVibrateOpen);
-        this.refreshSwitchUI();
+        // this.isVibrateOpen = !this.isVibrateOpen;
+        // configuration.instance.setGlobalData('vibrate', this.isVibrateOpen);
+        // this.refreshSwitchUI();
     }
 
     onBtnSoundClick () {
@@ -87,7 +98,7 @@ export class setting extends Component {
             audioManager.instance.openMusic();
             audioManager.instance.openSound();
         }
-
+        configuration.instance.setGlobalData('music', `${this.isSoundOpen}`);
         this.refreshSwitchUI();
     }
 

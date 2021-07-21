@@ -18,6 +18,7 @@ import { lotteryItem } from "./lotteryItem";
 import { constant } from "../../framework/constant";
 import { clientEvent } from "../../framework/clientEvent";
 import { gameLogic } from "../../logic/gameLogic";
+import { configuration } from '../../framework/configuration';
 const { ccclass, property } = _decorator;
 
 const LOTTERY_PART = 6;
@@ -168,19 +169,34 @@ export class lottery extends Component {
     }
 
     checkButton () {
+        const isFree = this.checkIsFree();
+        this.btnAd.node.active = isFree;
+        this.btnLottery.node.active = !isFree;
+        if (isFree) {
+            return;
+        }
+
         if (playerData.instance.playerInfo.gold > constant.LOTTERY.MONEY) {
             this.lbMoney.color = new Color(163, 64, 27);
             this.lotteryBtnEnable = true;
+            this.adBtnEnable = false;
         } else {
             this.lbMoney.color = Color.RED;
             this.lotteryBtnEnable = false;
+            this.adBtnEnable = true;
         }
-
-        this.adBtnEnable = true;
 
         gameLogic.updateRewardIcon(constant.SHARE_FUNCTION.LOTTERY, this.spAdIcon, ()=>{
 
         });
+    }
+
+    checkIsFree() {
+        let signInInfo = playerData.instance.playerInfo.signInInfo;
+        const currentDay = signInInfo.currentDay;
+        const data =  configuration.instance.getGlobalData('rewardDays');
+        const isFree = data === undefined || parseInt(data) < currentDay ? true : false;
+        return isFree;
     }
 
     set lotteryBtnEnable (value: boolean) {
@@ -228,6 +244,8 @@ export class lottery extends Component {
     }
 
     onBtnAdClick () {
+        const data =  configuration.instance.getGlobalData('rewardDays');
+        configuration.instance.setGlobalData('rewardDays', `${!data ? 0 : parseInt(data) + 1}`);
         gameLogic.openReward(constant.SHARE_FUNCTION.LOTTERY, (err)=>{
             if (!err) {
                 this.startRun();

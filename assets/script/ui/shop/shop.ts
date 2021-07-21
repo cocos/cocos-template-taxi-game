@@ -138,12 +138,12 @@ export class shop extends Component {
             amount: 1,
             ID: this.currentCarInfo.ID
         };
-        uiManager.instance.showDialog('common/showReward', [rewardInfo, false, i18n.t("showReward.buySuccessful"), ()=>{
+        uiManager.instance.showDialog('common/showReward', [rewardInfo, false, /*i18n.t("showReward.buySuccessful")*/'购买成功', ()=>{
             //启用
             gameLogic.useCar(this.currentCarInfo.ID);
 
             this.currentPage!.getComponent(shopPage)!.refreshUse(this.currentCarInfo.ID);
-        }, null, i18n.t("showReward.confirm")]);
+        }, null, /*i18n.t("showReward.confirm")*/'确认']);
     }
 
     onBtnGetClick () {
@@ -155,7 +155,7 @@ export class shop extends Component {
                 //金币不足
                 // return;
 
-                uiManager.instance.showTips(i18n.t("shop.getGold"), ()=>{});
+                uiManager.instance.showTips(/*i18n.t("shop.getGold")*/'获取金币', ()=>{});
                 return;
             }
 
@@ -278,7 +278,7 @@ export class shop extends Component {
             this.nodeGo.active = true;
             this.nodeBuy.active = false;
 
-            this.lbGo.string = i18n.t('shop.acquired');
+            this.lbGo.string = /*i18n.t('shop.acquired')*/'获取';
 
             //TODO 引擎点击事件传递有问题，先开起来
             this.nodeGet.getComponent(Button)!.interactable = true;
@@ -312,9 +312,9 @@ export class shop extends Component {
             let num = playerData.instance.getBuyTypeProgress(this.currentCarInfo.type);
 
             if (num < this.currentCarInfo.num) {
-                this.lbGo.string = i18n.t('shop.go');
+                this.lbGo.string = /*i18n.t('shop.go')*/'前往商店';
             } else {
-                this.lbGo.string = i18n.t('shop.receive');
+                this.lbGo.string = /*i18n.t('shop.receive')*/'获取';
             }
 
             let strDesc = i18n.t(`carTask.${this.currentCarInfo.show}`);

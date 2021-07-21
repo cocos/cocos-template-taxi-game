@@ -25,7 +25,7 @@ export class audioManager {
         audioManager._audioSource = audioSource;
     }
 
-    getConfiguration (isMusic: boolean) {
+      getConfiguration (isMusic: boolean) {
         let state;
         if (isMusic) {
             state = configuration.instance.getGlobalData('music');
@@ -35,7 +35,7 @@ export class audioManager {
 
         // console.log('Config for [' + (isMusic ? 'Music' : 'Sound') + '] is ' + state);
 
-        return !state || state === 'true' ? true : false;
+        return state === undefined || state === 'true' ? true : false;
     }
 
     /**
@@ -72,7 +72,7 @@ export class audioManager {
                 warn('load audioClip failed: ', err);
                 return;
             }
-            
+
             // NOTE: the second parameter is volume scale.
             audioSource.playOneShot(clip, this.soundVolume / audioSource.volume);
         });
