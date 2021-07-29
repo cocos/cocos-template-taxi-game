@@ -1,4 +1,4 @@
-import { _decorator, Component, Vec3, Node, Collider, RigidBody, ICollisionEvent, instantiate, ParticleSystem } from "cc";
+import { _decorator, Component, Vec3, Node, Collider, RigidBody, ICollisionEvent, instantiate, ParticleSystem, ERigidBodyType } from "cc";
 import { roadPoint } from "./roadPoint";
 import { fightConstants } from "./fightConstants";
 import { customerManager } from "./customerManager";
@@ -167,11 +167,13 @@ export class car extends Component {
         if (isMain) {
             rigidBody.setGroup(fightConstants.CAR_GROUP.MAIN_CAR);
             rigidBody.setMask(fightConstants.CAR_GROUP.OTHER_CAR);
+            rigidBody.type = ERigidBodyType.KINEMATIC;
 
             collider.on("onCollisionEnter", this.onCollisionEnter, this);
         } else {
             rigidBody.setGroup(fightConstants.CAR_GROUP.OTHER_CAR);
             rigidBody.setMask(-1);
+            rigidBody.type = ERigidBodyType.DYNAMIC;
         }
     }
 
@@ -214,7 +216,7 @@ export class car extends Component {
 
         audioManager.instance.playSound(constant.AUDIO_SOUND.CRASH);
 
-        let rigidBody = this.node.getComponent(RigidBody) as RigidBody;
+        let rigidBody = this.node.getComponent(RigidBody);
         if (this.isInvincible) {
             this.lastPos = this.node.worldPosition;
             this.lastRotation = this.node.eulerAngles;
@@ -243,7 +245,7 @@ export class car extends Component {
 
         this.isOver = true;
 
-        rigidBody.useGravity = true;
+        // rigidBody.useGravity = true;
 
         rigidBody.setGroup(fightConstants.CAR_GROUP.MAIN_CAR);
         rigidBody.setMask(fightConstants.CAR_GROUP.OTHER_CAR | fightConstants.CAR_GROUP.NORMAL);
