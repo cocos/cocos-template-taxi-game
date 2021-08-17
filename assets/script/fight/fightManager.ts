@@ -95,9 +95,9 @@ export class fightManager extends Component {
             console.log("###playerData.instance.playerInfo.realLevel;", playerData.instance.playerInfo.realLevel);
 
             if (playerData.instance.playerInfo.passCheckPoint) {
-                level = playerData.instance.playerInfo.realLevel;
+                level = playerData.instance.playerInfo.realLevel || level;
             } else {
-                level = playerData.instance.playerInfo.level;
+                level = playerData.instance.playerInfo.level || level;
             }
 
             console.log("###level", level);
