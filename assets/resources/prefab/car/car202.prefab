@@ -24,17 +24,17 @@
     "_level": 1,
     "_components": [
       {
-        "__id__": 9
-      },
-      {
         "__id__": 10
       },
       {
-        "__id__": 11
+        "__id__": 12
+      },
+      {
+        "__id__": 14
       }
     ],
     "_prefab": {
-      "__id__": 12
+      "__id__": 16
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -80,7 +80,7 @@
     "_level": 2,
     "_components": [],
     "_prefab": {
-      "__id__": 8
+      "__id__": 9
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -126,7 +126,7 @@
     "_level": 1,
     "_components": [],
     "_prefab": {
-      "__id__": 7
+      "__id__": 8
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -172,7 +172,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 6
+      "__id__": 7
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -223,8 +223,12 @@
     "_receiveShadows": false,
     "_id": "67loFFXqZBPKQZxyT6vJTK",
     "__prefab": {
-      "__id__": 13
+      "__id__": 6
     }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "82rMqC2I1L/6HSjdZY3LXh"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -269,8 +273,12 @@
     "nodeGas": null,
     "_id": "",
     "__prefab": {
-      "__id__": 14
+      "__id__": 11
     }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "8cLGDWd/RGh6pMqrgoaPSW"
   },
   {
     "__type__": "cc.BoxCollider",
@@ -295,8 +303,12 @@
     },
     "_id": "e54GuUZ4ZA6YIYHpSAS3MA",
     "__prefab": {
-      "__id__": 15
+      "__id__": 13
     }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "c3KFonONZKn5Qxb2NZOFzf"
   },
   {
     "__type__": "cc.RigidBody",
@@ -326,8 +338,12 @@
     },
     "_id": "a23yPIoA5E4LCSQb/uK4e/",
     "__prefab": {
-      "__id__": 16
+      "__id__": 15
     }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "5fVXhmoC5AD6edivXhG6At"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -338,21 +354,5 @@
       "__uuid__": "a8387ac6-6966-4070-8e50-30f5b47a42c3"
     },
     "fileId": "33Uhs1dolM3a6GcJG6G6wf"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "82rMqC2I1L/6HSjdZY3LXh"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "8cLGDWd/RGh6pMqrgoaPSW"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "c3KFonONZKn5Qxb2NZOFzf"
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "5fVXhmoC5AD6edivXhG6At"
   }
 ]

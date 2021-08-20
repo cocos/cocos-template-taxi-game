@@ -4,6 +4,8 @@ import { setting } from '../ui/main/setting';
 import { audioManager } from './audioManager';
 const { ccclass, property } = _decorator;
 
+declare const cocosAnalytics: any;
+
 @ccclass('GameRoot')
 export class GameRoot extends Component {
 
@@ -25,5 +27,11 @@ export class GameRoot extends Component {
         // 之后需要在引擎侧解决这个问题
         audioManager.instance.playMusic(true);
         setting.checkState();
+    }
+
+    start(){
+        if(cocosAnalytics){
+            cocosAnalytics.enableDebug(true);
+        }
     }
 }

@@ -74,7 +74,7 @@ export class audioManager {
             }
 
             // NOTE: the second parameter is volume scale.
-            audioSource.playOneShot(clip, this.soundVolume / audioSource.volume);
+            audioSource.playOneShot(clip, audioSource.volume ? this.soundVolume / audioSource.volume : 0);
         });
 
     }
