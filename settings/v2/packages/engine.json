@@ -28,7 +28,7 @@
       },
       "physics": {
         "_value": true,
-        "_option": "physics-ammo"
+        "_option": "physics-cannon"
       },
       "physics-ammo": {
         "_value": false
@@ -97,7 +97,7 @@
       "2d",
       "ui",
       "particle",
-      "physics-ammo",
+      "physics-cannon",
       "primitive",
       "profiler",
       "audio",
