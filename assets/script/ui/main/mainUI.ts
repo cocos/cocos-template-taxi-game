@@ -43,7 +43,7 @@ export class mainUI extends Component {
 
     targetScale: Vec3 = new Vec3(1, 1, 1);
     isGoldPlaying: boolean = false;
-    arrCars: any[] = [];
+    arrCars: number[] = [];
     isShowAniFinished = false;
     debugIdx = 0;
     debugTimer = 0;
@@ -191,9 +191,14 @@ export class mainUI extends Component {
         this.updateGold();
         this.nodeShopRedDot.active = playerData.instance.hasCarCanReceived();
         this.arrCars.length = 0;
-        let arr = localConfig.instance.getCars();
-        arr.forEach(element => {
-            this.arrCars.push(element.ID);
+        // let arr = localConfig.instance.getCars();
+        let arr = playerData.instance.playerInfo.cars;
+        arr.forEach((element: string) => {
+            // this.arrCars.push(element.ID);
+            const index = parseInt(element);
+            if(index >= 0){
+                this.arrCars.push(index);
+            }
         });
 
         this.isShowAniFinished = true;

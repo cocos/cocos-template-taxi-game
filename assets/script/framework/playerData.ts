@@ -102,6 +102,7 @@ export class playerData extends Component {
 
     createPlayerInfo(loginData?: { [name: string]: any }) {
         this.playerInfo.level = 1;  //默认初始关卡
+        this.playerInfo.gold = 0;
         this.playerInfo.realLevel = 1;//真正关卡
         this.playerInfo.passCheckPoint = false;//是否已经通过20关
         this.playerInfo.createDate = new Date(); //记录创建时间

@@ -32,6 +32,9 @@ export class fightCanvas extends Component {
     @property(loading)
     loadingUI: loading = null!;
 
+    @property(Node)
+    tip: Node = null;
+
     curProgress: number = 50;
     isFirstLoad: boolean = true; //首次加载
     isTouching: boolean = false; //是否正在点击中
@@ -61,6 +64,7 @@ export class fightCanvas extends Component {
 
     onTouchStart () {
         this.isTouching = true;
+        this.tip.active = false;
         this.carManager.controlMainCar(true);
     }
 
