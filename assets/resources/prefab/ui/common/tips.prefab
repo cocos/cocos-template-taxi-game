@@ -116,9 +116,9 @@
     "_id": ""
   },
   {
-    "__type__": "cc.PrivateNode",
+    "__type__": "cc.Node",
     "_name": "RICHTEXT_CHILD",
-    "_objFlags": 1024,
+    "_objFlags": 1032,
     "_parent": {
       "__id__": 2
     },

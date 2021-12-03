@@ -1,12 +1,11 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "f1bcda7d-b750-4f76-8d2b-2fcef14726da",
   "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
     "moduleId": "project:///assets/script/framework/util.js",
     "importerSettings": 7,
     "simulateGlobals": []

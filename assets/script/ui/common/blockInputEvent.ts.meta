@@ -1,12 +1,11 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "968bae9c-f45f-40ba-963f-01b2a3023fbe",
   "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
     "moduleId": "project:///assets/script/ui/common/blockInputEvent.js",
     "importerSettings": 7,
     "simulateGlobals": []

@@ -1,12 +1,11 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "273ad915-2d18-440a-80e3-7be9c2741b84",
   "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
     "moduleId": "project:///assets/script/fight/fightMap.js",
     "importerSettings": 7,
     "simulateGlobals": []

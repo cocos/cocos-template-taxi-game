@@ -101,7 +101,8 @@
       "primitive",
       "profiler",
       "audio",
-      "tween"
+      "tween",
+      "marionette"
     ],
     "noDeprecatedFeatures": {
       "value": false,

@@ -1,12 +1,11 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "884dc490-7368-47b0-96f2-dfeee58c8c9d",
   "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
     "moduleId": "project:///assets/script/ui/fight/clickBox.js",
     "importerSettings": 7,
     "simulateGlobals": []

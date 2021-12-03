@@ -1,12 +1,11 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "1ad879a9-4c31-4357-b75e-d313304c2ab8",
   "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
     "moduleId": "project:///assets/script/framework/constant.js",
     "importerSettings": 7,
     "simulateGlobals": []

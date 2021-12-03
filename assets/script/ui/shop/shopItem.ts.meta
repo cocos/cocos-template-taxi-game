@@ -1,12 +1,11 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "2b1f3eb5-e4f6-4d9e-a612-0d3568e6d23c",
   "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
     "moduleId": "project:///assets/script/ui/shop/shopItem.js",
     "importerSettings": 7,
     "simulateGlobals": []
