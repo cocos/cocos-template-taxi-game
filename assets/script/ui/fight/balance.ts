@@ -89,7 +89,7 @@ export class balance extends Component {
 
         const len = this.progress.length;
         for (let idx = 0; idx < maxProgress; idx++) {
-            if(maxProgress >= len){
+            if(maxProgress > len){
                 break;
             }
 
