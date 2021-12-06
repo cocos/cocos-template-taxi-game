@@ -127,8 +127,9 @@ export class shopItem extends Component {
         if (hasCar) {
             this.used = true;
 
-            playerData.instance.useCar(this.carInfo.ID);
-            clientEvent.dispatchEvent('updateCar');
+            // 改成点击换车按钮才换车
+            // playerData.instance.useCar(this.carInfo.ID);
+            // clientEvent.dispatchEvent('updateCar');
         }
     }
 
