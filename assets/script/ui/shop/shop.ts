@@ -149,7 +149,10 @@ export class shop extends Component {
     onBtnGetClick () {
         let carID = this.currentCarInfo.ID;
         if (playerData.instance.hasCar(carID)) {
-            return;
+            // 点击换车按钮后才算换车成功
+            playerData.instance.useCar(carID);
+            clientEvent.dispatchEvent('updateCar');
+            // return;
         } else if (this.currentCarInfo.type === constant.BUY_CAR_TYPE.GOLD) {
             if (this.currentCarInfo.num > playerData.instance.playerInfo.gold) {
                 //金币不足
@@ -278,7 +281,7 @@ export class shop extends Component {
             this.nodeGo.active = true;
             this.nodeBuy.active = false;
 
-            this.lbGo.string = /*i18n.t('shop.acquired')*/'获取';
+            this.lbGo.string = /*i18n.t('shop.acquired')*/'换车';
 
             //TODO 引擎点击事件传递有问题，先开起来
             this.nodeGet.getComponent(Button)!.interactable = true;
