@@ -8,7 +8,7 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-import { _decorator, Component, Label, Animation, AnimationState, Sprite, Node, Vec3, tweenUtil, tween} from "cc";
+import { _decorator, Component, Label, Animation, AnimationState, Sprite, Node, Vec3, tweenUtil, tween, sys} from "cc";
 import { clientEvent } from "../../framework/clientEvent";
 import { playerData } from "../../framework/playerData";
 import { util } from "../../framework/util";
@@ -64,6 +64,7 @@ export class mainUI extends Component {
         clientEvent.on('receiveGold', this.receiveGold, this);
         clientEvent.on('updateCar', this.updateCar, this);
         clientEvent.on('buyCar', this.updateCarReceived, this);
+        this.nodeGoldIcon.on(Node.EventType.TOUCH_START, this.resetPlayData, this);
     }
 
     onDisable () {
@@ -72,6 +73,7 @@ export class mainUI extends Component {
         clientEvent.off('receiveGold', this.receiveGold, this);
         clientEvent.off('updateCar', this.updateCar, this);
         clientEvent.off('buyCar', this.updateCarReceived, this);
+        this.nodeGoldIcon.off(Node.EventType.TOUCH_START, this.resetPlayData, this);
     }
 
     updateGold () {
@@ -243,5 +245,10 @@ export class mainUI extends Component {
                 }
             }, 2000);
         }
+    }
+
+    resetPlayData(){
+        sys.localStorage.removeItem('CarConfig');
+        uiManager.instance.showTips('数据重置成功！');
     }
 }

@@ -43,23 +43,23 @@ export class signIn extends Component {
     @property(Node)
     ndBtnReceive: Node = null!;
 
-    @property(Node)
-    ndReceiveIconn: Node = null!;
+    // @property(Node)
+    // ndReceiveIcon: Node = null!;
 
     //关闭按钮
     @property(Node)
     ndBtnClose: Node = null!;
 
     //暂不领取按钮
-    @property(Node)
-    ndBtnNotYet: Node = null!;
+    // @property(Node)
+    // ndBtnNotYet: Node = null!;
 
     //双倍领取按钮上图标
     @property(Sprite)
     spDoubleBtnIcon: Sprite = null!;
 
-    @property(Sprite)
-    spReceiveBtnIcon: Sprite = null!;
+    // @property(Sprite)
+    // spReceiveBtnIcon: Sprite = null!;
 
     //双倍领取按钮背景
     @property(SpriteFrame)
@@ -129,13 +129,13 @@ export class signIn extends Component {
         this.arrAfterFillSignIn = signInInfo.afterFillSignInDays;
 
         gameLogic.updateRewardIcon(constant.SHARE_FUNCTION.SIGNIN, this.spDoubleBtnIcon);
-        gameLogic.updateRewardIcon(constant.SHARE_FUNCTION.SIGNIN, this.spReceiveBtnIcon);
+        // gameLogic.updateRewardIcon(constant.SHARE_FUNCTION.SIGNIN, this.spReceiveBtnIcon);
 
         this.showSignInInfo();
 
         this.setButtonStyle();
 
-        this.ndReceiveIconn.active = true;
+        // this.ndReceiveIcon.active = true;
     }
 
     /**
@@ -160,18 +160,18 @@ export class signIn extends Component {
                 this.ndBtnDouble.active = true;
                 this.ndBtnReceive.active = false;
                 this.ndBtnNormal.active = !this.isTodayReceived;
-                this.ndBtnNotYet.active = false;
+                // this.ndBtnNotYet.active = false;
             } else {
                 this.ndBtnDouble.active = false;
                 this.ndBtnReceive.active = true;
                 this.ndBtnNormal.active = false;
-                this.ndBtnNotYet.active = !this.isTodayReceived;
+                // this.ndBtnNotYet.active = !this.isTodayReceived;
             }
         } else {
             this.ndBtnDouble.active = true;
             this.ndBtnReceive.active = false;
             this.ndBtnNormal.active = !this.isTodayReceived;
-            this.ndBtnNotYet.active = false;
+            // this.ndBtnNotYet.active = false;
         }
     }
 
@@ -281,11 +281,12 @@ export class signIn extends Component {
      * 双倍领取
      */
     onBtnDoubleClick () {
-        gameLogic.openReward(constant.SHARE_FUNCTION.SIGNIN, (err)=>{
-           if (!err) {
+        // 用户 TODO：此处可实现看视频领双倍福利功能
+        // gameLogic.openReward(constant.SHARE_FUNCTION.SIGNIN, (err)=>{
+        //    if (!err) {
              this.receiveClick(true);
-           }
-        })
+        //    }
+        // })
     }
 
     /**
@@ -299,11 +300,12 @@ export class signIn extends Component {
      * 领取
      */
     onBtnReceiveClick () {
-        gameLogic.openReward(constant.SHARE_FUNCTION.SIGNIN, (err)=>{
-            if (!err) {
+        // 用户 TODO：此处可实现看视频领福利功能
+        // gameLogic.openReward(constant.SHARE_FUNCTION.SIGNIN, (err)=>{
+        //     if (!err) {
               this.receiveClick(false);
-            }
-         })
+            // }
+        //  })
     }
 
     /**

@@ -14,6 +14,7 @@
     "__type__": "cc.Node",
     "_name": "signIn",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": null,
     "_children": [
       {
@@ -4488,7 +4489,7 @@
       "__id__": 1
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 213
@@ -4848,20 +4849,11 @@
     "ndBtnReceive": {
       "__id__": 137
     },
-    "ndReceiveIconn": {
-      "__id__": 139
-    },
     "ndBtnClose": {
       "__id__": 199
     },
-    "ndBtnNotYet": {
-      "__id__": 212
-    },
     "spDoubleBtnIcon": {
       "__id__": 112
-    },
-    "spReceiveBtnIcon": {
-      "__id__": 142
     },
     "sfBlue": {
       "__uuid__": "6e908a59-c057-448a-bc55-6484827f3a82@f9941",
