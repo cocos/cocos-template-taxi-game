@@ -175,6 +175,10 @@ export class playerData extends Component {
                 isChanged = true;
                 this.playerInfo[key] = value;
             }
+        } else if(key === 'gold'){
+            // 容错处理，仅更新特定数据 gold。谨防用户数据在未知情况下丢失而无法存储到本地
+            isChanged = true;
+            this.playerInfo[key] = value;
         }
         if (isChanged) {
             //有修改就保存到localcache
