@@ -63,6 +63,7 @@ export class flyReward extends Component {
             let rewardNode = new Node('flyRewardItem');
             let flyItem = rewardNode.addComponent(flyRewardItem);
             rewardNode.parent = this.ndRewardParent;
+            rewardNode.layer = this.ndRewardParent.layer;
             flyItem.show(imgReward, targetPos, (node: Node)=>{
                 this.onFlyOver(node);
             })
