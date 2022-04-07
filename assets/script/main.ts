@@ -88,7 +88,7 @@ export class main extends Component {
         this.startLogin();
 
         this.downloadGameRes(()=>{
-            console.log('subpackage download finished!');
+            // console.log('subpackage download finished!');
             this.isSubPackageFinished = true;
             this.loadMainScene();
         })

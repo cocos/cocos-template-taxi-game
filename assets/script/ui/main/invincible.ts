@@ -32,6 +32,11 @@ export class invincible extends Component {
     }
 
     show (callback: Function) {
+        // 防止因操作卡顿造成重复展示
+        if(this._callback){
+            return;
+        }
+
         this._callback = callback;
 
         gameLogic.updateRewardIcon(constant.SHARE_FUNCTION.INVINCIBLE, this.spIcon, (err, type)=>{
@@ -59,6 +64,7 @@ export class invincible extends Component {
     onBtnCloseClick () {
         uiManager.instance.hideDialog('main/invincible');
         this._callback && this._callback();
+        this._callback = undefined;
     }
 
     onBtnOKClick () {

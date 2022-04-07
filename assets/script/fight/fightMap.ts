@@ -231,7 +231,7 @@ export class fightMap extends Component {
     }
 
     triggerFinished(type: RoadType) {
-        console.log(`build ${type} finished!`);
+        // console.log(`build ${type} finished!`);
 
         let tips = '';
         switch (type) {
@@ -267,7 +267,7 @@ export class fightMap extends Component {
     }
 
     recycle () {
-        console.log('recycle map elements...');
+        // console.log('recycle map elements...');
 
         this.recycleModel('plane');
         this.recycleModel('road');
