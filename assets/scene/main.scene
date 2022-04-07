@@ -18,25 +18,25 @@
         "__id__": 2
       },
       {
-        "__id__": 153
+        "__id__": 154
       },
       {
-        "__id__": 143
+        "__id__": 144
+      },
+      {
+        "__id__": 152
+      },
+      {
+        "__id__": 147
+      },
+      {
+        "__id__": 149
       },
       {
         "__id__": 151
       },
       {
-        "__id__": 146
-      },
-      {
-        "__id__": 148
-      },
-      {
-        "__id__": 150
-      },
-      {
-        "__id__": 141
+        "__id__": 142
       },
       {
         "__id__": 5
@@ -45,11 +45,11 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 156
+      "__id__": 157
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 157
+      "__id__": 158
     },
     "_id": "e96d6ae0-6179-4ac3-8969-a9b662fb0e9c"
   },
@@ -109,19 +109,19 @@
       "__id__": 4
     },
     "mapManager": {
-      "__id__": 145
+      "__id__": 146
     },
     "customerManager": {
-      "__id__": 147
+      "__id__": 148
     },
     "carManager": {
-      "__id__": 140
+      "__id__": 141
     },
     "effectManager": {
-      "__id__": 149
+      "__id__": 150
     },
     "nodeGround": {
-      "__id__": 151
+      "__id__": 152
     },
     "_id": "15q0WAe4JBlYDPvMRO5cfy"
   },
@@ -135,7 +135,7 @@
     "_enabled": true,
     "__prefab": null,
     "carManager": {
-      "__id__": 140
+      "__id__": 141
     },
     "imgShare": {
       "__uuid__": "598faee4-c376-449f-9419-425332dd067b@f9941",
@@ -149,7 +149,7 @@
       "__id__": 128
     },
     "tip": {
-      "__id__": 133
+      "__id__": 134
     },
     "_id": "80KqwksVdF1oJkB+vLZh1i"
   },
@@ -171,22 +171,22 @@
         "__id__": 11
       },
       {
-        "__id__": 133
+        "__id__": 134
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 137
+        "__id__": 138
       },
       {
-        "__id__": 138
+        "__id__": 139
       },
       {
         "__id__": 4
       },
       {
-        "__id__": 139
+        "__id__": 140
       }
     ],
     "_prefab": null,
@@ -437,6 +437,9 @@
       },
       {
         "__id__": 132
+      },
+      {
+        "__id__": 133
       }
     ],
     "_prefab": null,
@@ -2088,6 +2091,7 @@
     "_enableWrapText": true,
     "_font": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
     "_isUnderline": false,
@@ -2205,6 +2209,7 @@
     "_enableWrapText": true,
     "_font": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
     "_isUnderline": false,
@@ -2386,6 +2391,7 @@
     "_enableWrapText": true,
     "_font": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
     "_isUnderline": false,
@@ -2542,6 +2548,17 @@
     "_id": "a6NH7Dj9tMVbatCdgoxYyz"
   },
   {
+    "__type__": "cc.BlockInputEvents",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 11
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "bapGAxg6xPlZvvH5reiITq"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "tip",
     "_objFlags": 0,
@@ -2552,13 +2569,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 134
-      },
-      {
         "__id__": 135
       },
       {
         "__id__": 136
+      },
+      {
+        "__id__": 137
       }
     ],
     "_prefab": null,
@@ -2595,7 +2612,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 133
+      "__id__": 134
     },
     "_enabled": true,
     "__prefab": null,
@@ -2616,10 +2633,11 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 133
+      "__id__": 134
     },
     "_enabled": true,
     "__prefab": null,
+    "_visFlags": 0,
     "_customMaterial": null,
     "_srcBlendFactor": 2,
     "_dstBlendFactor": 4,
@@ -2641,6 +2659,7 @@
     "_enableWrapText": true,
     "_font": null,
     "_isSystemFontUsed": true,
+    "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
     "_isUnderline": false,
@@ -2653,7 +2672,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 133
+      "__id__": 134
     },
     "_enabled": true,
     "__prefab": null,
@@ -2747,12 +2766,12 @@
     "_name": "carManager<carManager>",
     "_objFlags": 0,
     "node": {
-      "__id__": 141
+      "__id__": 142
     },
     "_enabled": true,
     "__prefab": null,
     "followCamera": {
-      "__id__": 142
+      "__id__": 143
     },
     "_id": "f2zHMeOvZLLqFC0VIP4qKH"
   },
@@ -2767,7 +2786,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 140
+        "__id__": 141
       }
     ],
     "_prefab": null,
@@ -2804,7 +2823,7 @@
     "_name": "Camera<follow>",
     "_objFlags": 0,
     "node": {
-      "__id__": 143
+      "__id__": 144
     },
     "_enabled": true,
     "__prefab": null,
@@ -2829,10 +2848,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 144
+        "__id__": 145
       },
       {
-        "__id__": 142
+        "__id__": 143
       }
     ],
     "_prefab": null,
@@ -2869,7 +2888,7 @@
     "_name": "Camera<Camera>",
     "_objFlags": 0,
     "node": {
-      "__id__": 143
+      "__id__": 144
     },
     "_enabled": true,
     "__prefab": null,
@@ -2910,7 +2929,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 146
+      "__id__": 147
     },
     "_enabled": true,
     "__prefab": null,
@@ -2928,7 +2947,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 145
+        "__id__": 146
       }
     ],
     "_prefab": null,
@@ -2965,7 +2984,7 @@
     "_name": "customerManager<customerManager>",
     "_objFlags": 0,
     "node": {
-      "__id__": 148
+      "__id__": 149
     },
     "_enabled": true,
     "__prefab": null,
@@ -2983,7 +3002,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 147
+        "__id__": 148
       }
     ],
     "_prefab": null,
@@ -3020,7 +3039,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 150
+      "__id__": 151
     },
     "_enabled": true,
     "__prefab": null,
@@ -3029,7 +3048,7 @@
       "__expectedType__": "cc.Prefab"
     },
     "carManager": {
-      "__id__": 140
+      "__id__": 141
     },
     "_id": "eaGUbEsBZPrIreKCQ7ptqz"
   },
@@ -3044,7 +3063,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 149
+        "__id__": 150
       }
     ],
     "_prefab": null,
@@ -3087,7 +3106,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 152
+        "__id__": 153
       }
     ],
     "_prefab": null,
@@ -3124,7 +3143,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 151
+      "__id__": 152
     },
     "_enabled": true,
     "__prefab": null,
@@ -3155,7 +3174,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 154
+        "__id__": 155
       }
     ],
     "_prefab": null,
@@ -3192,7 +3211,7 @@
     "_name": "Main Light<DirectionalLight>",
     "_objFlags": 0,
     "node": {
-      "__id__": 153
+      "__id__": 154
     },
     "_enabled": true,
     "__prefab": null,
@@ -3206,7 +3225,7 @@
     "_useColorTemperature": true,
     "_colorTemperature": 5264,
     "_staticSettings": {
-      "__id__": 155
+      "__id__": 156
     },
     "_illuminanceHDR": 20000,
     "_illuminance": 20000,
@@ -3227,16 +3246,19 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 158
-    },
-    "shadows": {
       "__id__": 159
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 160
     },
-    "fog": {
+    "_skybox": {
       "__id__": 161
+    },
+    "fog": {
+      "__id__": 162
+    },
+    "octree": {
+      "__id__": 163
     }
   },
   {
@@ -3353,5 +3375,22 @@
     "_fogTop": 1.5,
     "_fogRange": 1.2,
     "_accurate": false
+  },
+  {
+    "__type__": "cc.OctreeInfo",
+    "_enabled": false,
+    "_minPos": {
+      "__type__": "cc.Vec3",
+      "x": -1024,
+      "y": -1024,
+      "z": -1024
+    },
+    "_maxPos": {
+      "__type__": "cc.Vec3",
+      "x": 1024,
+      "y": 1024,
+      "z": 1024
+    },
+    "_depth": 8
   }
 ]

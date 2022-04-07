@@ -40,6 +40,8 @@ export class carManager extends Component {
     @property({type: follow})
     followCamera: follow = null!;
 
+    gameStart = false;
+
     start () {
         // Your initialization goes here.
     }
@@ -234,6 +236,10 @@ export class carManager extends Component {
      * @param isRunning
      */
     controlMainCar (isRunning: boolean) {
+        if(!this.gameStart){
+            return;
+        }
+
         if (isRunning) {
             clientEvent.dispatchEvent('showGuide', false);
             this.mainCar.startRunning();
@@ -243,6 +249,7 @@ export class carManager extends Component {
     }
 
     startGame () {
+        this.gameStart = true;
         clientEvent.dispatchEvent('showGuide', true);
         this.mainCar.startWithMinSpeed();
         this.startGenerateEnemy();
@@ -252,6 +259,7 @@ export class carManager extends Component {
     }
 
     gameOver () {
+        this.gameStart = false;
         this.followCamera.followTarget = null; //将镜头跟随移除，免得一直晃
         this.stopGenerateEnemy();
 
