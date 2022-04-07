@@ -35,6 +35,10 @@ export class trial extends Component {
     }
 
     show (callback: Function) {
+         // 防止因操作卡顿造成重复展示
+         if(this._callback){
+            return;
+        }
         this._callback = callback;
 
         gameLogic.updateRewardIcon(constant.SHARE_FUNCTION.TRIAL, this.spIcon);
@@ -65,6 +69,7 @@ export class trial extends Component {
         this.carId = arrLottery[rand];
         let carInfo = localConfig.instance.queryByID('car', this.carId.toString());
 
+        console.log('trial show car: ' + carInfo.model)
         resourceUtil.getUICar(carInfo.model, (err, prefab)=>{
             if (err) {
                 console.error(err, carInfo.model);
@@ -79,6 +84,7 @@ export class trial extends Component {
     onBtnCloseClick () {
         uiManager.instance.hideDialog('main/trial');
         this._callback && this._callback();
+        this._callback = undefined;
     }
 
     onBtnTrialClick () {
