@@ -151,13 +151,13 @@ export class configuration {
 
     getConfigPath () {
 
-        const platform = sys.platform;
+        const platform = sys.os;
 
         let path = "";
 
-        if (platform === sys.OS_WINDOWS) {
+        if (platform === sys.OS.WINDOWS) {
             path = "src/conf";
-        } else if (platform === sys.OS_LINUX) {
+        } else if (platform === sys.OS.LINUX) {
             path = "./conf";
         } else {
             if (sys.isNative) {

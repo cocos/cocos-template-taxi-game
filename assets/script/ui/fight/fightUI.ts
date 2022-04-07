@@ -8,7 +8,7 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-import { _decorator, Component, Label, Node, Sprite, SpriteFrame, Animation } from "cc";
+import { _decorator, Component, Label, Node, Sprite, SpriteFrame, Animation, director } from "cc";
 
 import { carManager } from "../../fight/carManager";
 import { playerData } from "../../framework/playerData";
@@ -91,6 +91,8 @@ export class fightUI extends Component {
     isShowGuide: boolean = false;//是否展示showGuide动画
     showGuideTime: number = 0;
 
+    gameStart = false;
+
     constructor() {
         super();
     }
@@ -102,7 +104,8 @@ export class fightUI extends Component {
     onEnable () {
         clientEvent.on('greetingCustomer', this.updateCarProgress, this);
         clientEvent.on('takeCustomer', this.updateCarProgress, this);
-        clientEvent.on('gameOver', this.updateCarProgress, this);
+        clientEvent.on('startGame', this.startGame, this);
+        clientEvent.on('gameOver', this.gameOver, this);
         clientEvent.on('showTalk', this.showCustomerTalk, this);
         clientEvent.on('makeMoney', this.onMakeMoney, this);
         clientEvent.on('showGuide', this.showGuide, this);
@@ -111,7 +114,8 @@ export class fightUI extends Component {
     onDisable () {
         clientEvent.off('greetingCustomer', this.updateCarProgress, this);
         clientEvent.off('takeCustomer', this.updateCarProgress, this);
-        clientEvent.off('gameOver', this.updateCarProgress, this);
+        clientEvent.off('startGame', this.startGame, this);
+        clientEvent.off('gameOver', this.gameOver, this);
         clientEvent.off('showTalk', this.showCustomerTalk, this);
         clientEvent.off('makeMoney', this.onMakeMoney, this);
         clientEvent.off('showGuide', this.showGuide, this);
@@ -131,6 +135,21 @@ export class fightUI extends Component {
         if (!this.carManager.mainCar.isMoving) {
             this.showGuide(true);
         }
+    }
+
+    public startGame(){
+        this.gameStart = true;
+    }
+
+    public gameOver(){
+        this.gameStart = false;
+        const scheduler = director.getScheduler();
+        if(scheduler.isScheduled(this.hideTalk, this)){
+            this.unschedule(this.hideTalk);
+            this.hideTalk();
+        }
+
+        this.updateCarProgress();
     }
 
     public showGuide (isShow: boolean) {
@@ -206,6 +225,9 @@ export class fightUI extends Component {
      * @memberof fightUI
      */
     showCustomerTalk (customerId: string, type: number) {
+        if(!this.gameStart){
+            return;
+        }
         let arrTalk = localConfig.instance.getTableArr('talk');
         // Note:
         let arrFilter: any[] = [];
@@ -227,11 +249,11 @@ export class fightUI extends Component {
         //显示3秒
         this.nodeTalk.active = true;
         this.nodeTalk.getComponent(Animation)!.play();
-        this.scheduleOnce(()=>{
-            this.nodeTalk.active = false;
-        }, 4);
+        this.scheduleOnce(this.hideTalk, 4);
+    }
 
-
+    hideTalk(){
+        this.nodeTalk.active = false;
     }
 
     onMakeMoney (value: number) {
