@@ -61,7 +61,7 @@
           }
         },
         "comps": {
-          "cc.SpriteComponent": {
+          "cc.Sprite": {
             "color": {
               "keys": 1,
               "values": [
@@ -128,7 +128,7 @@
           }
         },
         "comps": {
-          "cc.SpriteComponent": {
+          "cc.Sprite": {
             "color": {
               "keys": 3,
               "values": [
@@ -219,7 +219,7 @@
           }
         },
         "comps": {
-          "cc.LabelComponent": {
+          "cc.Label": {
             "color": {
               "keys": 5,
               "values": [
