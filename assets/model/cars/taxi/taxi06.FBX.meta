@@ -1,5 +1,5 @@
 {
-  "ver": "2.1.10",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "b1194242-b40d-4597-b52e-0c1560da550e",
@@ -136,8 +136,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {}
     },
@@ -157,7 +157,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "b1194242-b40d-4597-b52e-0c1560da550e@a1ccb"
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -180,7 +180,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "b1194242-b40d-4597-b52e-0c1560da550e@8f799"
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -274,6 +274,9 @@
       }
     ],
     "legacyFbxImporter": true,
-    "materialDumpDir": "db://assets/model/cars/taxi/Materials_taxi06"
+    "materialDumpDir": "db://assets/model/cars/taxi/Materials_taxi06",
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
   }
 }

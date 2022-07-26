@@ -1,5 +1,5 @@
 {
-  "ver": "2.1.10",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "cdbb08dc-c88a-4d42-b8f5-e84f885c1b5b",
@@ -125,7 +125,7 @@
       }
     },
     "5f79d": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "name": "贴图 #12.texture",
       "id": "5f79d",
@@ -213,6 +213,9 @@
       }
     ],
     "legacyFbxImporter": true,
-    "materialDumpDir": "db://assets/model/cars/taxi/Materials_taxi02"
+    "materialDumpDir": "db://assets/model/cars/taxi/Materials_taxi02",
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
   }
 }

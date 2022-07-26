@@ -1,5 +1,5 @@
 {
-  "ver": "2.1.10",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "97b5ed3f-f707-4d41-8adb-a1526f1b4f26",
@@ -31,8 +31,8 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
@@ -40,7 +40,7 @@
       }
     },
     "c774a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "name": "贴图 #10.texture",
       "id": "c774a",
@@ -123,6 +123,9 @@
         "uri": "97b5ed3f-f707-4d41-8adb-a1526f1b4f26@1e5ef"
       }
     ],
-    "legacyFbxImporter": true
+    "legacyFbxImporter": true,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
   }
 }

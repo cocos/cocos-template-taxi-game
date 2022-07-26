@@ -8,7 +8,7 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-import { _decorator, Component, ProgressBarComponent, Sprite, Label } from "cc";
+import { _decorator, Component, Sprite, Label } from "cc";
 import { playerData } from "../../framework/playerData";
 import { util } from "../../framework/util";
 import { constant } from "../../framework/constant";
