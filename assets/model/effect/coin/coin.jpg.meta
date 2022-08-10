@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.22",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "ea8a0f85-6ba4-45ae-a997-83f48241dee7",
@@ -9,7 +9,7 @@
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "ea8a0f85-6ba4-45ae-a997-83f48241dee7@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "ea8a0f85-6ba4-45ae-a997-83f48241dee7"
+        "imageUuidOrDatabaseUri": "ea8a0f85-6ba4-45ae-a997-83f48241dee7",
+        "visible": true
       },
       "displayName": "coin",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "ea8a0f85-6ba4-45ae-a997-83f48241dee7@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

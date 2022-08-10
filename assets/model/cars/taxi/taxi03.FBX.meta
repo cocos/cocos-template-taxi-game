@@ -1,5 +1,5 @@
 {
-  "ver": "2.1.10",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "011604df-4e2c-4c27-b817-2a30ed3df922",
@@ -156,7 +156,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "011604df-4e2c-4c27-b817-2a30ed3df922@46c59"
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -212,6 +212,9 @@
       }
     ],
     "legacyFbxImporter": true,
-    "materialDumpDir": "db://assets/model/cars/taxi/Materials_taxi03"
+    "materialDumpDir": "db://assets/model/cars/taxi/Materials_taxi03",
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
   }
 }

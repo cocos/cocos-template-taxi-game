@@ -8,9 +8,8 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-import { _decorator, Component, ProgressBarComponent, Node, Label, Sprite } from "cc";
+import { _decorator, Component, Node, Label, Sprite, ProgressBar } from "cc";
 import { fightConstants } from "../../fight/fightConstants";
-import { playerData } from "../../framework/playerData";
 import { gameLogic } from "../../logic/gameLogic";
 import { uiManager } from "../../framework/uiManager";
 import { constant } from "../../framework/constant";
@@ -21,8 +20,8 @@ export class clickBox extends Component {
     /* class member could be defined like this */
     // dummy = '';
 
-    @property(ProgressBarComponent)
-    progress: ProgressBarComponent = null!;
+    @property(ProgressBar)
+    progress: ProgressBar = null!;
 
     @property(Node)
     nodeReward: Node = null!;

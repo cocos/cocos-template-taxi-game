@@ -1,5 +1,5 @@
 {
-  "ver": "2.1.10",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "c58a2112-026e-4433-a392-ba5d337c8d09",
@@ -55,7 +55,7 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "c58a2112-026e-4433-a392-ba5d337c8d09@ad0ee"
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -122,6 +122,9 @@
       }
     ],
     "legacyFbxImporter": true,
-    "materialDumpDir": "db://assets/model/plane/Materials_plane01"
+    "materialDumpDir": "db://assets/model/plane/Materials_plane01",
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
   }
 }

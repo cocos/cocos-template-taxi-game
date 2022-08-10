@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.22",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "42c9ac31-4386-44d0-9411-9d6ca6d2562b",
@@ -9,7 +9,7 @@
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "42c9ac31-4386-44d0-9411-9d6ca6d2562b@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "42c9ac31-4386-44d0-9411-9d6ca6d2562b"
+        "imageUuidOrDatabaseUri": "42c9ac31-4386-44d0-9411-9d6ca6d2562b",
+        "visible": true
       },
       "displayName": "girl01",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "42c9ac31-4386-44d0-9411-9d6ca6d2562b@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

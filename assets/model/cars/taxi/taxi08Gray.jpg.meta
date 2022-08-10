@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.22",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "da948145-f253-4b85-8de0-8b35b8946791",
@@ -9,7 +9,7 @@
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "da948145-f253-4b85-8de0-8b35b8946791@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "da948145-f253-4b85-8de0-8b35b8946791"
+        "imageUuidOrDatabaseUri": "da948145-f253-4b85-8de0-8b35b8946791",
+        "visible": true
       },
       "displayName": "taxi08Gray",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "da948145-f253-4b85-8de0-8b35b8946791@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

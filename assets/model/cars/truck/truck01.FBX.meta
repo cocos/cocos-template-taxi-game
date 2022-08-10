@@ -1,5 +1,5 @@
 {
-  "ver": "2.1.10",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "16c4db36-3cef-4fa2-ba47-13853124e393",
@@ -40,7 +40,7 @@
       }
     },
     "a96a6": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "name": "贴图 #1.texture",
       "id": "a96a6",
@@ -123,6 +123,9 @@
       }
     ],
     "legacyFbxImporter": true,
-    "materialDumpDir": "db://assets/model/cars/truck/Materials_truck01"
+    "materialDumpDir": "db://assets/model/cars/truck/Materials_truck01",
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
   }
 }

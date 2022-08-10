@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.22",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "1d662a7c-6f33-4e6f-9349-fac8cd70c33e",
@@ -9,7 +9,7 @@
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "1d662a7c-6f33-4e6f-9349-fac8cd70c33e@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "1d662a7c-6f33-4e6f-9349-fac8cd70c33e"
+        "imageUuidOrDatabaseUri": "1d662a7c-6f33-4e6f-9349-fac8cd70c33e",
+        "visible": true
       },
       "displayName": "man01",
       "id": "6c48a",
@@ -36,6 +37,7 @@
   "userData": {
     "type": "texture",
     "redirect": "1d662a7c-6f33-4e6f-9349-fac8cd70c33e@6c48a",
-    "hasAlpha": false
+    "hasAlpha": false,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "2.1.10",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "51a69fe1-0221-40eb-aff6-9c6efb76136c",
@@ -123,7 +123,7 @@
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model/cars/taxi/taxi01.jpg"
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -193,7 +193,8 @@
       ]
     },
     "fbx": {
-      "preferLocalTimeSpan": false
+      "preferLocalTimeSpan": false,
+      "smartMaterialEnabled": false
     }
   }
 }

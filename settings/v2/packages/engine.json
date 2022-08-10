@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.5",
+  "__version__": "1.0.6",
   "modules": {
     "cache": {
       "base": {
@@ -90,19 +90,21 @@
       }
     },
     "includeModules": [
+      "2d",
+      "3d",
+      "animation",
+      "audio",
       "base",
       "gfx-webgl",
       "gfx-webgl2",
-      "3d",
-      "2d",
-      "ui",
+      "marionette",
       "particle",
       "physics-cannon",
       "primitive",
       "profiler",
-      "audio",
+      "skeletal-animation",
       "tween",
-      "marionette"
+      "ui"
     ],
     "noDeprecatedFeatures": {
       "value": false,
