@@ -124,12 +124,12 @@
         "gltfIndex": 6
       }
     },
-    "f537c": {
+    "cc384": {
       "importer": "gltf-embeded-image",
-      "uuid": "c702cdc7-c0fa-4dcf-9486-36d944625294@f537c",
+      "uuid": "c702cdc7-c0fa-4dcf-9486-36d944625294@cc384",
       "displayName": "",
-      "id": "f537c",
-      "name": "taxi05Green.jpg.image",
+      "id": "cc384",
+      "name": "taxi05Green.jpg-0.image",
       "userData": {
         "gltfIndex": 0
       },
@@ -141,12 +141,29 @@
       ],
       "subMetas": {}
     },
-    "d9830": {
+    "9496e": {
       "importer": "gltf-embeded-image",
-      "uuid": "c702cdc7-c0fa-4dcf-9486-36d944625294@d9830",
+      "uuid": "c702cdc7-c0fa-4dcf-9486-36d944625294@9496e",
       "displayName": "",
-      "id": "d9830",
-      "name": "taxi05Light.png.image",
+      "id": "9496e",
+      "name": "taxi05Green.jpg-1.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ecbdb": {
+      "importer": "gltf-embeded-image",
+      "uuid": "c702cdc7-c0fa-4dcf-9486-36d944625294@ecbdb",
+      "displayName": "",
+      "id": "ecbdb",
+      "name": "taxi05Light.png-2.image",
       "userData": {
         "gltfIndex": 2
       },
@@ -179,7 +196,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c702cdc7-c0fa-4dcf-9486-36d944625294@f537c"
+        "imageUuidOrDatabaseUri": "c702cdc7-c0fa-4dcf-9486-36d944625294@cc384"
       }
     },
     "733e8": {
@@ -195,8 +212,8 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": false,
-        "imageUuidOrDatabaseUri": "db://assets/model/cars/taxi/taxi05Green.jpg"
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c702cdc7-c0fa-4dcf-9486-36d944625294@9496e"
       },
       "ver": "1.0.21",
       "imported": true,
@@ -226,7 +243,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c702cdc7-c0fa-4dcf-9486-36d944625294@d9830"
+        "imageUuidOrDatabaseUri": "c702cdc7-c0fa-4dcf-9486-36d944625294@ecbdb"
       }
     },
     "9e444": {
@@ -327,15 +344,15 @@
     "imageMetas": [
       {
         "name": "taxi05Green.jpg",
-        "uri": "c702cdc7-c0fa-4dcf-9486-36d944625294@f537c"
+        "uri": "c702cdc7-c0fa-4dcf-9486-36d944625294@cc384"
       },
       {
-        "name": "taxi05Green",
-        "uri": "db://assets/model/cars/taxi/taxi05Green.jpg"
+        "name": "taxi05Green.jpg",
+        "uri": "c702cdc7-c0fa-4dcf-9486-36d944625294@9496e"
       },
       {
         "name": "taxi05Light.png",
-        "uri": "c702cdc7-c0fa-4dcf-9486-36d944625294@d9830"
+        "uri": "c702cdc7-c0fa-4dcf-9486-36d944625294@ecbdb"
       }
     ],
     "legacyFbxImporter": true
