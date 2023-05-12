@@ -22,40 +22,6 @@
         "gltfIndex": 3
       }
     },
-    "f537c": {
-      "importer": "gltf-embeded-image",
-      "uuid": "c702cdc7-c0fa-4dcf-9486-36d944625294@f537c",
-      "displayName": "",
-      "id": "f537c",
-      "name": "taxi05Green.jpg.image",
-      "userData": {
-        "gltfIndex": 0
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".jpg",
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "d9830": {
-      "importer": "gltf-embeded-image",
-      "uuid": "c702cdc7-c0fa-4dcf-9486-36d944625294@d9830",
-      "displayName": "",
-      "id": "d9830",
-      "name": "taxi05Light.png.image",
-      "userData": {
-        "gltfIndex": 2
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".png",
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "f29e8": {
       "ver": "1.1.0",
       "importer": "gltf-mesh",

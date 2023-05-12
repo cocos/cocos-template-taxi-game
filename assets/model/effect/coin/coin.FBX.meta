@@ -22,24 +22,6 @@
       ],
       "subMetas": {}
     },
-    "df7df": {
-      "importer": "gltf-embeded-image",
-      "uuid": "d0de18df-e2e4-4b30-9e7f-2930376ee3cc@df7df",
-      "displayName": "",
-      "id": "df7df",
-      "name": "贴图 #1.image",
-      "userData": {
-        "gltfIndex": 0
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".jpg",
-        ".json",
-        ".png"
-      ],
-      "subMetas": {}
-    },
     "c6160": {
       "ver": "1.1.0",
       "importer": "gltf-mesh",

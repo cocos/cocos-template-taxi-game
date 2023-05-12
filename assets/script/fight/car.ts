@@ -584,7 +584,7 @@ export class car extends Component {
                 Vec3.subtract(offset, this.posTarget, this.node.worldPosition);
                 offset.normalize();
 
-                Vec3.multiplyScalar(offset, offset, this.currentSpeed);
+                Vec3.multiplyScalar(offset, offset, this.currentSpeed * deltaTime * 60);
                 let pos = this.node.worldPosition;
                 offset.add(pos);
 
@@ -638,7 +638,7 @@ export class car extends Component {
                 }
                 let percent = Math.abs((curRotation - this.originRotation) / offsetRotation);
 
-                let nextRotation = offsetRotation * percent + (this.currentSpeed * this.quarter * (this.targetRotation > this.originRotation ? 1 : -1) );
+                let nextRotation = offsetRotation * percent + (this.currentSpeed * deltaTime * 60 * this.quarter * (this.targetRotation > this.originRotation ? 1 : -1) );
                 if (Math.abs(offsetRotation) < Math.abs(nextRotation)) {
                     nextRotation = offsetRotation;
                 }
